@@ -5,7 +5,7 @@ THEME_DIR="${0:A:h}/themes"
 alien_load_theme(){
   if [[ -z "${ALIEN_CUSTOM_THEME_PATH}" ]]; then
     if [[ -z "${ALIEN_THEME}" ]]; then
-      source "${THEME_DIR}/red.zsh"
+      source "${THEME_DIR}/betheproud.zsh"
     else
       source "${THEME_DIR}/${ALIEN_THEME}.zsh"
     fi
