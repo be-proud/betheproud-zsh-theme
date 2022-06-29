@@ -2,7 +2,6 @@
 
 [[ -z $ALIEN_SECTIONS_LEFT ]] && ALIEN_SECTIONS_LEFT=(
   exit
-  time
   battery
   user
   path
