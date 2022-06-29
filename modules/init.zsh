@@ -3,7 +3,6 @@
 [[ -z $ALIEN_SECTIONS_LEFT ]] && ALIEN_SECTIONS_LEFT=(
   exit
   battery
-  user
   path
   vcs_branch:async
   vcs_status:async
@@ -11,16 +10,14 @@
   versions:async
   newline
   ssh
-  venv
-  prompt
+  venv prompt
 )
 
 [[ -z $ALIEN_SECTIONS_RIGHT ]] && ALIEN_SECTIONS_RIGHT=()
-
 [[ -z "${ALIEN_SECTIONS_LEFT_SEP_SYM}" ]] && ALIEN_SECTIONS_LEFT_SEP_SYM=''
 [[ -z "${ALIEN_SECTIONS_RIGHT_SEP_SYM}" ]] && ALIEN_SECTIONS_RIGHT_SEP_SYM=''
 
-[[ -z "${ALIEN_PROMPT_SYM}" ]] && ALIEN_PROMPT_SYM='❱'
+[[ -z "${ALIEN_PROMPT_SYM}" ]] && ALIEN_PROMPT_SYM='❯'
 [[ -z "${ALIEN_GIT_STASH_SYM}" ]] && ALIEN_GIT_STASH_SYM='@'
 
 [[ -z "${ALIEN_VERSION_PROMPT_SEP}" ]] && ALIEN_VERSION_PROMPT_SEP=' '
