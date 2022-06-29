@@ -2,7 +2,6 @@
 
 [[ -z $ALIEN_SECTIONS_LEFT ]] && ALIEN_SECTIONS_LEFT=(
   exit
-  battery
   path
   vcs_branch:async
   vcs_status:async
@@ -10,7 +9,8 @@
   versions:async
   newline
   ssh
-  venv prompt
+  venv 
+  prompt
 )
 
 [[ -z $ALIEN_SECTIONS_RIGHT ]] && ALIEN_SECTIONS_RIGHT=()
